@@ -19,9 +19,9 @@ ifdef P
 	PROFILE=-pg -no-pie # for bug in gprof.
 endif
 
-CXX = /opt/OpenCilk-10.0.1-Linux/bin/clang++ -std=c++17
-CC = /opt/OpenCilk-10.0.1-Linux/bin/clang -std=gnu11
-LD= /opt/OpenCilk-10.0.1-Linux/bin/clang++ -std=c++17
+CXX = /home/caimz/OpenCilk-10.0.1-Linux/bin/clang++ -std=c++17
+CC = /home/caimz/OpenCilk-10.0.1-Linux/bin/clang -std=gnu11
+LD= /home/caimz/OpenCilk-10.0.1-Linux/bin/clang++ -std=c++17
 
 
 SIM_INCLUDE=$(SNIPER)/include
